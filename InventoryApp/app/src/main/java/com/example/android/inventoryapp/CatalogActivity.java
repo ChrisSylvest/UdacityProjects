@@ -57,10 +57,11 @@ public class CatalogActivity extends AppCompatActivity implements
         // Create a ContentValues object where column names are the keys,
         // and Toto's pet attributes are the values.
         ContentValues values = new ContentValues();
-        values.put(InventoryContract.InventoryEntry.COLUMN_PRODUCT_NAME, "butt");
+        values.put(InventoryContract.InventoryEntry.COLUMN_PRODUCT_NAME, "Name placeholder");
         values.put(InventoryContract.InventoryEntry.COLUMN_PRODUCT_QUANTITY, 2);
-        values.put(InventoryContract.InventoryEntry.COLUMN_PRODUCT_PRICE, "420$");
-        values.put(InventoryContract.InventoryEntry.COLUMN_PRODUCT_SUPPLIER_EMAIL, "lolol");
+        values.put(InventoryContract.InventoryEntry.COLUMN_PRODUCT_PRICE, "1$");
+        values.put(InventoryContract.InventoryEntry.COLUMN_PRODUCT_SUPPLIER_EMAIL, "Email placeholder");
+        values.put(InventoryContract.InventoryEntry.COLUMN_PRODUCT_IMAGE, "image placeholder");    
 
         // Insert a new row for Toto into the provider using the ContentResolver.
         // Use the {@link PetEntry#CONTENT_URI} to indicate that we want to insert
